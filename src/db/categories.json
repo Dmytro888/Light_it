@@ -1,0 +1,33 @@
+[
+  {
+    "img": "https://chudo-udo.info/media/k2/items/cache/cbf7f37b235384c4201dbc056b7770ad_XL.jpg",
+    "title": "Technics",
+    "fetch": "products"
+  },
+  {
+    "img": "https://www.wigglestatic.com/product-media/100223990/LifeLine-Bike-Tool-Kit-37-Piece-Tool-Sets-2016-LL-BTK37PC-2.jpg",
+    "title": "Tools",
+    "fetch": "template"
+  },
+  {
+    "img": "https://business-review.eu/wp-content/uploads/2014/02/sports-vector-pack_327114.jpg",
+    "title": "Sport",
+    "fetch": "template"
+  },
+
+  {
+    "img": "https://i.pinimg.com/originals/47/ed/e1/47ede16fc57101e2a1902fe91cb7fd08.jpg",
+    "title": "Cosmetics",
+    "fetch": "template"
+  },
+  {
+    "img": "https://i.pinimg.com/originals/3c/7c/8d/3c7c8d14e9d461a4a97a43cc98c4033c.jpg",
+    "title": "Clothes",
+    "fetch": "template"
+  },
+  {
+    "img": "https://previews.123rf.com/images/qualitdesign/qualitdesign1805/qualitdesign180500026/100749687-baby-goods-vector-icons-and-design-elements-set-color-kids-stuff-for-feding-nursery-bathing-walking-.jpg",
+    "title": "Children",
+    "fetch": "template"
+  }
+]

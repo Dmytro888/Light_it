@@ -1,0 +1,119 @@
+.pageTitle {
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+  color: rgb(139, 136, 136);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.linkBack {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 10px;
+  font-size: 16px;
+  color: rgb(139, 136, 136);
+  cursor: pointer;
+}
+
+.linkBackTitle {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.img {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.productTitle {
+  height: 50px;
+  margin-top: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.descriptionTitle {
+  margin: 15px 0;
+}
+.descriptionText {
+  height: 50px;
+  margin-bottom: 15px;
+
+  color: rgb(139, 136, 136);
+  border-bottom: 1px solid #ccc;
+}
+
+.formContainer {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.textArea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  resize: none;
+  outline: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.itemReview {
+  padding: 5px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+.date {
+  float: right;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(139, 136, 136);
+}
+
+.textReview {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    margin-top: 30px;
+  }
+  .linkBackTitle {
+    font-weight: normal;
+    display: block;
+    margin-left: 5px;
+  }
+
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .productContainer {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .reviewContainer {
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    flex-grow: 1;
+  }
+
+  .descriptionText {
+    border-bottom: none;
+  }
+}

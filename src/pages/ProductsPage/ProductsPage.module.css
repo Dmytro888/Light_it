@@ -1,0 +1,32 @@
+.pageTitle {
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+  color: rgb(139, 136, 136);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.linkBack {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 10px;
+  font-size: 16px;
+  color: rgb(139, 136, 136);
+}
+
+.linkBackTitle {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    margin-top: 30px;
+  }
+  .linkBackTitle {
+    display: block;
+    margin-left: 5px;
+  }
+}

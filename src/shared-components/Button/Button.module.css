@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #3364ac;
+  border-color: transparent;
+  border-radius: 15px;
+  transition: transform 200ms linear;
+}
+
+.button:hover {
+  transform: scale(1.02);
+  color: #ccc;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.493);
+  cursor: pointer;
+}

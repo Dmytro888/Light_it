@@ -1,0 +1,64 @@
+.formContainer {
+  max-width: 480px;
+  margin: 0 auto;
+
+  margin-top: 20px;
+  padding: 40px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.521);
+  text-align: center;
+}
+
+.titleForm {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.inputForm {
+  width: 100%;
+  margin-bottom: 35px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.error {
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  line-height: 1;
+  margin-top: -34px;
+  margin-bottom: 22px;
+  color: rgb(243, 9, 9);
+  text-align: left;
+}
+
+.messageError {
+  height: 27px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: rgb(243, 9, 9);
+}
+
+.notification {
+  margin-top: 50px;
+}
+
+.notificationLink {
+  color: rgb(57, 6, 240);
+}
+
+@media (min-width: 768px) {
+  .error {
+    margin-left: 45px;
+  }
+
+  .formContainer {
+    margin-top: 60px;
+  }
+  .inputForm {
+    width: 80%;
+  }
+}
